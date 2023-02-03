@@ -1,0 +1,1 @@
+TRUNCATE TABLE cohort_data.on_day_user_acquisition_{{ params.table_type }} ON CLUSTER {{ var.value.CH_CLUSTER }}

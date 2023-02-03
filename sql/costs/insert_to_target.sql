@@ -1,0 +1,1 @@
+INSERT INTO {{ params.schema }}.{{ params.table }} SELECT DISTINCT * FROM {{ params.service_schema }}.{{ params.service_table }}
